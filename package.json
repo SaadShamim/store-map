@@ -1,0 +1,10 @@
+{
+  "name": "store-analytics",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "pg": "^4.4.1"
+  }
+}

@@ -1,0 +1,42 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Store Search</title>
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- our custom css styles -->
+		<link rel="stylesheet" href="styles.css">
+
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+		<script type="text/javascript"
+		  		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsTQySMhYqlFg_Srx2o96jy2hBJwj0BaQ&libraries=visualization">
+		</script>
+		<script type="text/javascript" src="markerclusterer_compiled.js"></script>
+		<!-- front end js that handles all interaction on this page -->
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+
+	<body>
+		<div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+			<div class="demo-ribbon"></div>
+			<main class="demo-main mdl-layout__content">
+		    	<div class="demo-container mdl-grid">
+		        	<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+					
+					<div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+						<div id="map-canvas"></div>
+						<br/>
+						<!-- store detail cards are shown here -->
+						<div id="container"></div>
+		             
+		          	</div>
+
+		        </div>
+		    </main>
+	    </div>
+	</body>
+</html>
